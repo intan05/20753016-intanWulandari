@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        intan wulandari_20753016
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Selamat Datang :)</h1>
+    <h4>Hallo, perkenalkan</h4>
+    <p>Nama saya intan wulandari, Npm 20753016, Prodi Manajemen Informatika kelas 2A</p>
+
+    <hr>
+
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>nama lengkap*</label><label class="validation-error hide" id="namalengkapValidationError">halaman belum diisi</label>
+                        <input type="text" name="nama lengkap" id="nama lengkap" placeholder="Nama Lengkap Anda">
+                    </div>
+                    <div>
+                        <label>NPM</label>
+                        <input type="text" name="NPM" id="NPM" placeholder="NPM">
+                    </div>
+                    <div>
+                        <label>alamat</label>
+                        <input type="text" name="alamat" id="alamat" placeholder="alamat">
+                    </div>
+                    <div>
+                        <label>email</label>
+                        <input type="text" name="email" id="email" placeholder="alamat email">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>nama lengkap</th>
+                            <th>Npm</th>
+                            <th>alamat</th>
+                            <th>email</th>
+                            <th>tools</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
